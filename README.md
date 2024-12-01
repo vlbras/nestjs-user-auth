@@ -1,7 +1,9 @@
+# User Auth template
 
 ## Installation
 
 ```bash
+# install packages
 $ pnpm install
 ```
 
@@ -32,11 +34,14 @@ $ pnpm run start:prod
 ```
 
 ## Documentation
+
 ```bash
 # default value for PORT is 3000
 $ http://localhost:3000/api/
 ```
+
 ## Modules integration
+
 ```bash
 # common packages 
 $ pnpm i @nestjs/cqrs @nestjs/swagger class-transformer class-validator
@@ -51,4 +56,3 @@ $ pnpm i -D @types/bcryptjs @types/passport-jwt
 # mongo packages
 $ pnpm i @nestjs/mongoose mongoose nestjs-object-id
 ```
-
